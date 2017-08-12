@@ -1,0 +1,158 @@
+/*/*div.image_background_1{
+	height: 100%;
+	background-image: url('seattle_2.jpg');
+ 	background-size: cover;
+ 	background-attachment: fixed;
+ 	background-position: center;
+ 	background-repeat: no-repeat;
+}
+	
+	div.main{
+		position: absolute;
+		left: 0;
+		top: 30%;
+		width: 100%;
+		color: white;
+		text-align: center;
+	}
+	div.image_background_1 .main h1, p, h4{
+		/*color: white;*/
+		/*display: inline-block;*/
+	/*}
+		div.my_name span.border{
+			font-size:45px;
+			cursor: pointer;
+		}
+	div.image_background_1 .main span#title{
+		position: absolute;
+		top: 87%;
+		left: 0;
+		width: 100%;
+		font-style: italic;
+		}*/
+
+		/*div.image_background_1 .main .menu_item{
+			display: inline-block;
+			margin-left: 15px;
+			margin-right: 15px;
+		}
+
+		div.image_background_1 .menu{
+			position: absolute;
+			left: 0;
+			width: 100%;
+			top: 147%;
+		}
+			div.main .menu_item button{
+				background-color: transparent;
+				border: 1px solid gray;
+				color: white;
+				cursor: pointer;
+				
+			}
+			div.main .menu_item button:hover{
+				transform: scale(1.2);
+				color:white;
+				background-color: #060e21;
+			}*/
+
+/*start of portofolio styles*/
+div.image_background_2{
+	height: 100%;
+	background-image: url('seattle_2.jpg');
+ 	background-size: cover;
+ 	background-attachment: fixed;
+ 	background-position: center;
+ 	background-repeat: no-repeat;
+}	
+	div.image_background_2 .main_portofolio .my_panel{
+		margin-top: 4px;
+	}
+	div.image_background_2 .main_portofolio .panel-heading .panel-title{
+		font-size: 36px;
+	}
+	div.image_background_2 .main_portofolio .panel-heading .technology_icons {
+		display: inline-block;
+		margin-left: 5px;
+	}
+	div.image_background_2 .main_portofolio .panel-heading .technology_icons li{
+		display: inline;
+	}
+	div.image_background_2 .main_portofolio .panel-heading .technology_icons li img{
+		width: 3em;
+		height: 3em;
+	}
+
+	/*_secretsApp.html.erb*/
+	.my_row{
+		overflow-x: auto;
+		white-space: nowrap;
+		display: inline-block;
+	}
+	.cancelNoWrap{
+		white-space: normal;
+	}
+	.my_row .aboutApp{
+		vertical-align: top;
+		display: inline-block;
+		float: none;
+	}
+	.my_row .my_card{
+		width: 25rem;
+	}
+	.my_row .aboutApp .my_card .card-block p,a{
+		display: block;
+	}
+	.my_row .aboutApp img{
+		width: 20em;
+		height: 28.625em; 
+		max-width: 100%;
+		height: auto;
+		filter: none;
+	}
+	.my_row .aboutApp .desktopShot{
+		width: 50em;
+		max-width: 100%;
+		height: auto;
+	}
+
+		/*lendBorrowApp styles*/
+		div.row .card{
+			display: inline-block;
+		}
+		div.row ul li{
+			display: inline-block;
+			vertical-align: top;
+		}
+		div.row img{
+			/*border: 0 none;*/
+			display: inline-block;
+			height: auto;
+			max-width: 100%;
+			vertical-align: top;
+		}
+div.image_background_3{
+	height: 100%;
+	background-image: url('nairobi.jpg');
+ 	background-size: cover;
+ 	background-attachment: fixed;
+ 	background-position: center;
+ 	background-repeat: no-repeat;
+}
+
+/*for mobile*/
+@media only screen and (max-width: 480px){
+	div.image_background_2 .main_portofolio .panel-heading .technology_icons li img{
+		/*width: 2em;
+		height: 2em;*/
+	}
+	div.image_background_2 .main_portofolio .panel-heading .technology_icons {
+		margin-left: 0;
+		padding: 0.50em;
+	}
+}
+
+	
+
+
+*/*/

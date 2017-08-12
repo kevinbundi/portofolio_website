@@ -1,0 +1,81 @@
+<div class="image_background_1">
+	<div class="main">
+		<div class="my_name animated flipInY">
+			<span class="border">Kevin Bundi</span>
+		</div>	
+		<span id="title">Full Stack Web Developer (Ruby on Rails)</span>
+
+		<div class="menu">
+			<div class="menu_item" id="portofolio">
+				<a href="#scrollPortofolio"><button class="btn btn default">Portofolio</button></a>
+			</div>
+			<div class="menu_item" id="about">
+				<a href="#scrollAbout"><button class="btn btn default">About</button></a>
+			</div>
+			<div class="menu_item " id="contact">
+				<button class="btn btn default">Contact</button>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- start portofolio -->
+<div class="image_background_2" id="scrollPortofolio">
+	<div class="container-fluid main_portofolio">
+		<div class="panel-group" id="accordion">
+			<div class="panel panel-default my_panel">
+				<div class="panel-heading">
+					<h4 class="panel-title">
+						<a data-toggle="collapse" data-parent="#accordion" href="#collapse1">Events App</a>
+					</h4>
+					<ul class="technology_icons">
+						<li><img class="img-thumbnail" src="<%=asset_path('icons/ruby-rails.png')%>" alt="ruby on rails"></li>						
+					</ul>
+				</div>
+				<div id="collapse1" class="panel-collapse collapse on">
+					<div class="panel-body">
+						<%= render 'homes/portofolio/eventsApp' %>
+					</div>
+				</div>
+			</div>
+
+			<div class="panel panel-default">
+				<div class="panel-heading">
+					<h4 class="panel-title">
+						<a data-toggle="collapse" data-parent="#accordion" href="#collapse2">Secrets App</a>
+					</h4>
+					<ul class="technology_icons">
+						<li><img class="img-thumbnail" src="<%=asset_path('icons/ruby-rails.png')%>" alt="ruby on rails"></li>
+					</ul>
+				</div>
+				<div id="collapse2" class="panel-collapse collapse">
+					<div class="panel-body">
+						<%= render 'homes/portofolio/secretsApp' %>
+					</div>
+				</div>
+			</div>
+
+			<div class="panel panel-default">
+				<div class="panel-heading">
+					<h4 class="panel-title">
+						<a data-toggle="collapse" data-parent="#accordion" href="#collapse3">Lend or Borrow App</a>
+					</h4>
+					<ul class="technology_icons">
+						<li><img class="img-thumbnail" src="<%=asset_path('icons/ruby-rails.png')%>" alt="ruby on rails"></li>
+					</ul>
+				</div>
+				<div id="collapse3" class="panel-collapse collapse">
+					<div class="panel-body">
+						<%= render 'homes/portofolio/lendBorrowApp' %> 
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- start about -->
+<div class="image_background_3" id="scrollAbout">
+	
+</div>
+
