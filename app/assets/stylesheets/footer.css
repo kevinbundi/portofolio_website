@@ -1,0 +1,18 @@
+div#footer{
+	height: 100px;
+	background-color: black
+}
+div#footer .footerContent{
+	padding-top: 20px;
+}
+div#footer #my-name{
+	color: white;
+	text-align: center;
+	font-size: 12px;
+	margin-bottom: 0.5rem; 
+}
+.my-icons{
+	margin-left: 3px;
+	margin-right: 3px;
+}
+

@@ -27,3 +27,16 @@ html, body{
 	height: 100%;
 	position: relative;
 }
+
+.my-white{
+	color: white;
+}
+
+.horizontal-center-div{
+	left: 50%;
+	transform: translateX(-50%);
+}
+.vertical-center-div{
+	top: 50%;
+	transform: translateY(-50%);
+}
