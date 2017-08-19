@@ -36,7 +36,7 @@ html, body{
 	left: 50%;
 	transform: translateX(-50%);
 }
-.vertical-center-div{
+.vertical-center-div{ 
 	top: 50%;
 	transform: translateY(-50%);
 }

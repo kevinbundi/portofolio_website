@@ -55,20 +55,23 @@ div.boxPortofolio{
 /*small mobile phones*/
 @media only screen and (max-width:320px) {
 	#secrets span.secretsBorder{
-		font-size: 80px;
+		font-size: 60px;
 		letter-spacing: 5px;
 	}
 
 	#lendBorrow span.lendBorrowBorder{
-		font-size: 33px;
+		font-size: 60px;
+	}
+		#lendBorrow .lendBorrowParagraph{
+		font-size: 13px;
 	}
 	
 	#events span.eventsBorder{
-		font-size: 70px;
+		font-size: 61px;
 	}
 
 	#mpira span.mpiraBorder{
-		font-size: 70px;
+		font-size: 60px;
 		letter-spacing: 5px;
 	}
 		#mpira .mpiraParagraph{
@@ -76,25 +79,41 @@ div.boxPortofolio{
 	}
 }
 /*medium and large mobile*/
-/*@media only screen and (min-width:321px) and (max-width:482px) {
+@media only screen and (min-width:321px) and (max-width:482px) {
 	#lendBorrow span.lendBorrowBorder{
-		font-size: 33px;
+		font-size: 70px;
 	}
-}*/
+			#lendBorrow .lendBorrowParagraph{
+			font-size: 16px;
+		}
+
+	#events span.eventsBorder{
+		font-size: 60px;
+	}
+
+	#mpira span.mpiraBorder{
+		font-size: 60px;
+		letter-spacing: 5px;
+	}
+
+		#mpira .mpiraParagraph{
+			font-size: 16px;
+	}
+}
 
 /*tablets*/
-/*@media only screen and (min-width: 483px) and (max-width: 768px) {
+@media only screen and (min-width: 483px) and (max-width: 768px) {
 	#lendBorrow span.lendBorrowBorder{
 		font-size: 61px;
 	}
-}*/
+}
 /*desktop*/
-/*@media only screen and (min-width: 769px) and (max-width: 991px) {
+@media only screen and (min-width: 769px) and (max-width: 991px) {
 	#lendBorrow span.lendBorrowBorder{
 		font-size: 46px;
 		letter-spacing: 5px;
 	}
-}*/
+}
 /*larger desktop*/
 @media only screen and (min-width: 992px) and (max-width: 1199px){
 	#lendBorrow span.lendBorrowBorder{
