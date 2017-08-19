@@ -1,0 +1,104 @@
+div.boxPortofolio{
+	height: 50vh;
+}
+/*secrets styles*/
+#secrets{
+	background-color: #015c77;
+	background: rgba(1, 92, 119, 0.5)
+}
+	#secrets span.secretsBorder{
+		color: white;
+		font-family: 'caveat','calibri';
+		font-size: 80px;
+		letter-spacing: 5px;
+	}
+	#secrets .secretsParagraph{
+		color: white;
+	}
+
+/*lendBorrow styles*/ 
+#lendBorrow{
+	background-color: #32150b;
+	background: rgba(50, 21, 11, 0.5)
+}
+	#lendBorrow span.lendBorrowBorder{
+		color: white;
+		font-family: 'calibri';
+		font-size: 80px;
+		letter-spacing: 5px;
+	}
+
+/*events styles*/
+#events{
+	background-color: black;
+	background: rgba(0, 0, 0, 0.5)
+}
+	#events span.eventsBorder{
+		color: white;
+		font-family: 'Maven Pro','calibri';
+		font-size: 80px;
+		letter-spacing: 5px;
+	}
+	
+/*mpira styles*/
+#mpira{
+	background-color: #1b0101;
+	background: rgba(27, 1, 1, 0.5)  
+}
+	#mpira span.mpiraBorder{
+		color: white;
+		font-family: 'Just Another Hand','calibri';
+		font-size: 80px;
+		letter-spacing: 5px;
+	}
+
+/*small mobile phones*/
+@media only screen and (max-width:320px) {
+	#secrets span.secretsBorder{
+		font-size: 80px;
+		letter-spacing: 5px;
+	}
+
+	#lendBorrow span.lendBorrowBorder{
+		font-size: 33px;
+	}
+	
+	#events span.eventsBorder{
+		font-size: 70px;
+	}
+
+	#mpira span.mpiraBorder{
+		font-size: 70px;
+		letter-spacing: 5px;
+	}
+		#mpira .mpiraParagraph{
+			font-size: 13px;
+	}
+}
+/*medium and large mobile*/
+/*@media only screen and (min-width:321px) and (max-width:482px) {
+	#lendBorrow span.lendBorrowBorder{
+		font-size: 33px;
+	}
+}*/
+
+/*tablets*/
+/*@media only screen and (min-width: 483px) and (max-width: 768px) {
+	#lendBorrow span.lendBorrowBorder{
+		font-size: 61px;
+	}
+}*/
+/*desktop*/
+/*@media only screen and (min-width: 769px) and (max-width: 991px) {
+	#lendBorrow span.lendBorrowBorder{
+		font-size: 46px;
+		letter-spacing: 5px;
+	}
+}*/
+/*larger desktop*/
+@media only screen and (min-width: 992px) and (max-width: 1199px){
+	#lendBorrow span.lendBorrowBorder{
+		font-size: 65px;
+	}
+}
+
