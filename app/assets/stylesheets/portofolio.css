@@ -80,11 +80,15 @@ div.boxPortofolio{
 }
 /*medium and large mobile*/
 @media only screen and (min-width:321px) and (max-width:482px) {
+	#secrets span.secretsBorder{
+		font-size: 65px;
+	}
+
 	#lendBorrow span.lendBorrowBorder{
-		font-size: 70px;
+		font-size: 65px;
 	}
 			#lendBorrow .lendBorrowParagraph{
-			font-size: 16px;
+			font-size: 14px;
 		}
 
 	#events span.eventsBorder{
@@ -92,12 +96,11 @@ div.boxPortofolio{
 	}
 
 	#mpira span.mpiraBorder{
-		font-size: 60px;
-		letter-spacing: 5px;
+		font-size: 65px;
 	}
 
 		#mpira .mpiraParagraph{
-			font-size: 16px;
+			font-size: 14px;
 	}
 }
 
